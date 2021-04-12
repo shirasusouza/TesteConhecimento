@@ -1,0 +1,47 @@
+body,ul,li,p
+{
+    color: rgb(224, 240, 253);
+    text-decoration: none;
+    list-style: none;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1,2rem;
+}
+.bak
+{
+    flex-wrap: wrap;
+    background-image: url(imgx/Piano_Da_Floresta.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.cabeca
+{
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+justify-items: center;
+padding: 20px;
+}
+a
+{
+    color: lightcyan;
+
+}
+.menu ul
+{
+    display: flex;
+}
+.menu li
+{
+    margin-left: 10px;
+}
+.menu li a
+{
+    display: block;
+    padding: 10px;
+    background-color: tomato;
+    border-radius: 10%;
+    border-style: none;
+}
